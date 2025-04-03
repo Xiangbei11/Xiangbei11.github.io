@@ -7,13 +7,13 @@ first_name: Xiangbei
 middle_name:  
 last_name: Liu
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+#  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  #Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔨 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -87,8 +87,17 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Learning Through the Sandstorm # blog_name will be displayed in your blog page # journey toward becoming a better machine learning engineer
+blog_description: >
+  *“When you come out of the storm, you won't be the same person who walked in. 
+  That's what this storm's all about.”* — Haruki Murakami
+
+  This blog is my place to collect and make sense of what I’m learning — a running 
+  record of my journey. From theory to practice, I share ideas, insights, and lessons from hands-on experience. #
+
+  Yes, GPT helped with the words — but all the curious questions, deep-dive ideas, 
+  and research rabbit holes? That’s 100% me.
+
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -97,7 +106,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -248,7 +257,7 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [year] #, tags, categories enables year, tag and category archives (remove if you need to disable one of them).
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
@@ -256,8 +265,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+# display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+# display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
