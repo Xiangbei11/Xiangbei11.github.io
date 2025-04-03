@@ -89,14 +89,15 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Learning Through the Sandstorm # blog_name will be displayed in your blog page # journey toward becoming a better machine learning engineer
 blog_description: >
-  *“When you come out of the storm, you won't be the same person who walked in. 
-  That's what this storm's all about.”* — Haruki Murakami
+  <em>“When you come out of the storm, you won't be the same person who walked in. 
+  That's what this storm's all about.”</em> — Haruki Murakami
 
-  This blog is my place to collect and make sense of what I’m learning — a running 
-  record of my journey. From theory to practice, I share ideas, insights, and lessons from hands-on experience. #
+  This blog is my place to collect and make sense of what I’m learning — 
+  a running record of my journey. From theory to practice, I share ideas, 
+  insights, and lessons from hands-on experience.
 
-  Yes, GPT helped with the words — but all the curious questions, deep-dive ideas, 
-  and research rabbit holes? That’s 100% me.
+  <strong>#</strong> Yes, GPT helped with the words — but all the curious questions, 
+  deep-dive ideas, and research rabbit holes? That’s 100% me.
 
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -131,13 +132,13 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
