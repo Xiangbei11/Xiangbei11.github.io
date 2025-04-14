@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-what-i-talk-about-when-i-talk-about-building-personal-website",
+        },{id: "post-does-stress-cause-strain-or-the-other-way-around",
+      
+        title: "Does Stress Cause Strain — or the Other Way Around?",
+      
+      description: "This post explores a question that popped into my head during a sunny afternoon at work",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/stress_strain/";
+        
+      },
+    },{id: "post-what-i-talk-about-when-i-talk-about-building-personal-website",
       
         title: "What I Talk About When I Talk About Building Personal Website",
       
