@@ -87,14 +87,12 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: <span style="font-size: 1.5rem;"> Learning Through the Sandstorm # blog_name will be displayed in your blog page # journey toward becoming a better machine learning engineer
+blog_name: "<span style='font-size: 1.5rem;'>Learning Through the Sandstorm</span>" # blog_name will be displayed in your blog page 
 blog_description: >
   <div style="font-size: 0.95rem;">
     <p><em>“When you come out of the storm, you won't be the same person who walked in. 
     That's what this storm's all about.”</em> — Haruki Murakami
-    <p>This blog is my place to collect and make sense of what I’m learning — 
-    a running record of my journey. <br> 
-    From theory to practice, I share ideas, insights, and lessons from hands-on experience.
+    <p>This blog is my place to collect and make sense of what I’m learning — a running record of my journey. <br> From theory to practice, I share ideas, insights, and lessons from hands-on experience.
     <p><strong>#</strong> Yes, GPT helped with the words — but all the curious questions, 
     deep-dive ideas, and research rabbit holes? That’s 100% me.
   </div>
