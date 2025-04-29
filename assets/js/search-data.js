@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-does-stress-cause-strain-or-the-other-way-around",
+        },{id: "post-how-alpha-shapes-the-dirichlet-distribution",
+      
+        title: "How Alpha Shapes the Dirichlet Distribution?",
+      
+      description: "A deep dive into how the alpha parameter in the Dirichlet distribution controls the balance between sparsity and uniformity, blending hands-on experimentation with clear mathematical insights.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/how-alpha-shapes-dirichlet-distribution/";
+        
+      },
+    },{id: "post-does-stress-cause-strain-or-the-other-way-around",
       
         title: "Does Stress Cause Strain — or the Other Way Around?",
       
