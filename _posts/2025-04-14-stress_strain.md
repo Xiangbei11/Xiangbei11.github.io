@@ -23,6 +23,8 @@ However, in practical applications — especially in lab settings or engineering
 
 So, which one actually causes the other?
 
+---
+
 ### **Causality Depends on the Perspective**
 
 **Physically**, external forces — such as loads, pressures, or constraints — generate internal stress within a material. The material then responds to that stress by deforming. In this framework, stress is the cause, and strain is the effect. This view aligns with how materials behave in the natural world.

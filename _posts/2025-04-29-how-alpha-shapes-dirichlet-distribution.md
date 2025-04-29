@@ -23,54 +23,54 @@ This blog is not about coding tricks. It’s about understanding what alpha real
 
 The Dirichlet distribution models **probability vectors** — lists of non-negative numbers that sum to 1. Formally, if:
 
-\[
+$$
 \mathbf{p} = (p_1, p_2, \dots, p_K)
-\]
+$$
 
-then \( \mathbf{p} \) is drawn from a Dirichlet distribution with parameter vector \( \boldsymbol{\alpha} = (\alpha_1, \alpha_2, \dots, \alpha_K) \) as:
+then $$ \mathbf{p} $$ is drawn from a Dirichlet distribution with parameter vector $$ \boldsymbol{\alpha} = (\alpha_1, \alpha_2, \dots, \alpha_K) $$ as:
 
-\[
+$$
 \mathbf{p} \sim \text{Dirichlet}(\boldsymbol{\alpha})
-\]
+$$
 
-Each \( \alpha_k \) influences the corresponding component \( p_k \), controlling how large or small it tends to be across different samples.
+Each $$ \alpha_k $$ influences the corresponding component $$ p_k $$, controlling how large or small it tends to be across different samples.
 
 When I first used the Dirichlet function, I focused mainly on generating random compositions. But once I started varying alpha and observing the output, deeper patterns became clear.
 
 ### **The Role of Alpha**
 
-When all \( \alpha_k \) are set to the same value (for example, \( \alpha = 1 \) for each component), the behavior of the Dirichlet distribution depends strongly on the size of alpha:
+When all $$ \alpha_k $$ are set to the same value (for example, $$ \alpha = 1 $$ for each component), the behavior of the Dirichlet distribution depends strongly on the size of alpha:
 
-- **When \( \alpha < 1 \)**: Samples tend to be **sparse**. Most of the probability mass concentrates in a few categories.
-- **When \( \alpha = 1 \)**: Samples are **uniform** over the simplex — any combination is equally likely.
-- **When \( \alpha > 1 \)**: Samples become **dense** and **balanced**, with values clustering around equal proportions.
+- **When $$ \alpha < 1 $$**: Samples tend to be **sparse**. Most of the probability mass concentrates in a few categories.
+- **When $$ \alpha = 1 $$**: Samples are **uniform** over the simplex — any combination is equally likely.
+- **When $$ \alpha > 1 $$**: Samples become **dense** and **balanced**, with values clustering around equal proportions.
 
 Through experimentation, I noticed that when alpha was very small, a few elements dominated, while others were nearly zero. As alpha increased, samples became smoother, and no single element stood out sharply.
 
 ### **Mathematical Properties**
 
-The **expected value** for each component \( p_k \) is:
+The **expected value** for each component $$ p_k $$ is:
 
-\[
+$$
 \mathbb{E}[p_k] = \frac{\alpha_k}{\sum_{i=1}^K \alpha_i}
-\]
+$$
 
-If all components have the same alpha, each expected probability is simply \( \frac{1}{K} \).
+If all components have the same alpha, each expected probability is simply $$ \frac{1}{K} $$.
 
-More importantly, the **variance** of each \( p_k \) tells how much each component can fluctuate:
+More importantly, the **variance** of each $$ p_k $$ tells how much each component can fluctuate:
 
-\[
+$$
 \text{Var}[p_k] = \frac{\alpha_k(\alpha_0 - \alpha_k)}{\alpha_0^2 (\alpha_0 + 1)}
 \quad \text{where} \quad \alpha_0 = \sum_{i=1}^K \alpha_i
-\]
+$$
 
-When all \( \alpha_k \) are equal, this simplifies to:
+When all $$ \alpha_k $$ are equal, this simplifies to:
 
-\[
+$$
 \text{Var}[p_k] \propto \frac{1}{\alpha (K\alpha + 1)}
-\]
+$$
 
-From this equation, the trend is clear: as \( \alpha \) increases, the variance decreases. Samples cluster closer to the expected uniform distribution. When \( \alpha \) is small, variance is large, and extreme values are much more likely.
+From this equation, the trend is clear: as $$ \alpha $$ increases, the variance decreases. Samples cluster closer to the expected uniform distribution. When $$ \alpha $$ is small, variance is large, and extreme values are much more likely.
 
 This mathematical behavior aligned exactly with what I observed in my Python simulations.
 
@@ -89,6 +89,6 @@ This behavior has real-world consequences. In machine learning, for example, usi
 In simulation experiments, adjusting alpha allowed me to control how diverse or focused the generated samples were.
 It wasn't just about generating numbers — it was about tuning how much variation I wanted to model.
 
-## Lessons Learned
+### **Lessons Learned**
 
-What started as a simple Python function turned into a deeper exploration of how one parameter can control the shape of randomness itself. Understanding \( \alpha \) isn't just about getting the math right. It's about seeing how small changes in our assumptions ripple into the patterns we create.
+What started as a simple Python function turned into a deeper exploration of how one parameter can control the shape of randomness itself. Understanding $$ \alpha $$ isn't just about getting the math right. It's about seeing how small changes in our assumptions ripple into the patterns we create.
