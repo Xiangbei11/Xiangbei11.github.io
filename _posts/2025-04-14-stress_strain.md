@@ -14,9 +14,11 @@ In mechanics, the relationship between **stress** and **strain** is fundamental 
 
 The standard view is that **stress causes strain**. Apply a force to a material (which creates **stress** — force per unit area), and the material deforms (which produces **strain** — deformation per unit length). This relationship is formalized by **Hooke’s Law** for linear elastic materials:
 
-\[\epsilon = \frac{\sigma}{E}\]
+$$
+\epsilon = \frac{\sigma}{E}
+$$
 
-Here, \( \epsilon \) is strain, \( \sigma \) is stress, and \( E \) is Young’s modulus — a material constant that quantifies stiffness. This equation treats stress as the input and strain as the output.
+Here, $$\epsilon$$ is strain, $$\sigma$$ is stress, and $$E$$ is Young’s modulus — a material constant that quantifies stiffness. This equation treats stress as the input and strain as the output.
 
 However, in practical applications — especially in lab settings or engineering design — this relationship often seems reversed. We might **impose a known strain** by stretching or compressing a material by a fixed amount, and then measure the resulting stress. In this context, strain appears to come first, and stress becomes the system’s response.
 

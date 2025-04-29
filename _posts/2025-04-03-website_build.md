@@ -252,8 +252,6 @@ This will place the TOC at the beginning and include only the first two levels o
 
 ---
 
----
-
 This guide captures the how-to steps that helped me set up and refine my site. If you're building yours with al-folio, I hope this saves you time and effort!
 
 
