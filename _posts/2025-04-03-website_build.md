@@ -246,9 +246,9 @@ This will place the TOC at the beginning and include only the first two levels o
 ---
 
 ## TODO
-Submit the site to Google Search Console
-Change # of more authors to "et al."
-Change the theme color
+* Submit the site to Google Search Console
+* Change # of more authors to "et al."
+* Change the theme color
 
 ---
 

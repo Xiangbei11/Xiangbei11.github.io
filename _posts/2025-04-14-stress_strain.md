@@ -3,6 +3,7 @@ layout: post
 title: "Does Stress Cause Strain — or the Other Way Around?"
 date: 2025-04-14
 description: This post explores a question that popped into my head during a sunny afternoon at work
+math: true
 #categories: [Mechanics, Physics]
 #tags: [Stress, Strain, Mechanics, Material Science]
 ---
@@ -13,7 +14,7 @@ In mechanics, the relationship between **stress** and **strain** is fundamental 
 
 The standard view is that **stress causes strain**. Apply a force to a material (which creates **stress** — force per unit area), and the material deforms (which produces **strain** — deformation per unit length). This relationship is formalized by **Hooke’s Law** for linear elastic materials:
 
-\[\epsilon = rac{\sigma}{E}\]
+\[\epsilon = \frac{\sigma}{E}\]
 
 Here, \( \epsilon \) is strain, \( \sigma \) is stress, and \( E \) is Young’s modulus — a material constant that quantifies stiffness. This equation treats stress as the input and strain as the output.
 
