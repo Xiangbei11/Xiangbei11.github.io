@@ -4,9 +4,8 @@ title:  "How Alpha Shapes the Dirichlet Distribution?"
 date:   2025-04-29 
 description: A deep dive into how the alpha parameter in the Dirichlet distribution controls the balance between sparsity and uniformity, blending hands-on experimentation with clear mathematical insights.
 math: true
----
 
-# How Alpha Shapes the Dirichlet Distribution?
+---
 
 In Python, sampling from a Dirichlet distribution looks deceptively simple:
 
@@ -18,7 +17,9 @@ At first, I treated it just like another random generator — specify an `alpha`
 
 This blog is not about coding tricks. It’s about understanding what alpha really does, how it mathematically shapes randomness, and how even a small change in alpha leads to dramatically different outcomes.
 
-## Introduction to the Dirichlet Distribution
+---
+
+### **Introduction to the Dirichlet Distribution**
 
 The Dirichlet distribution models **probability vectors** — lists of non-negative numbers that sum to 1. Formally, if:
 
@@ -36,7 +37,7 @@ Each \( \alpha_k \) influences the corresponding component \( p_k \), controllin
 
 When I first used the Dirichlet function, I focused mainly on generating random compositions. But once I started varying alpha and observing the output, deeper patterns became clear.
 
-## The Role of Alpha
+### **The Role of Alpha**
 
 When all \( \alpha_k \) are set to the same value (for example, \( \alpha = 1 \) for each component), the behavior of the Dirichlet distribution depends strongly on the size of alpha:
 
@@ -46,7 +47,7 @@ When all \( \alpha_k \) are set to the same value (for example, \( \alpha = 1 \)
 
 Through experimentation, I noticed that when alpha was very small, a few elements dominated, while others were nearly zero. As alpha increased, samples became smoother, and no single element stood out sharply.
 
-## Mathematical Properties
+### **Mathematical Properties**
 
 The **expected value** for each component \( p_k \) is:
 
@@ -73,13 +74,15 @@ From this equation, the trend is clear: as \( \alpha \) increases, the variance 
 
 This mathematical behavior aligned exactly with what I observed in my Python simulations.
 
-## Why Alpha = 1 Matters
+### **Why Alpha = 1 Matters**
 
 During my tests, I noticed that alpha = 1 seemed like a turning point. When alpha was less than 1, samples were sparse and uneven. When alpha was greater than 1, samples became more uniform and balanced.
 
 Mathematically, alpha = 1 corresponds to a **uniform** distribution over the probability simplex. No particular configuration is favored — every combination of probabilities is equally likely. This makes alpha = 1 a meaningful boundary between randomness dominated by few categories and randomness evenly spread across all categories.
 
-## Practical Implications
+---
+
+### **Practical Implications**
 
 This behavior has real-world consequences. In machine learning, for example, using small alpha values in topic models or clustering algorithms tends to produce "hard" assignments — most weight is assigned to a few topics or clusters. Larger alpha values lead to "softer" assignments, where each sample belongs to multiple groups more evenly.
 

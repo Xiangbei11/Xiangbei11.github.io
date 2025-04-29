@@ -6,9 +6,8 @@ description: This post explores a question that popped into my head during a sun
 math: true
 #categories: [Mechanics, Physics]
 #tags: [Stress, Strain, Mechanics, Material Science]
----
 
-## **Does Stress Cause Strain — or the Other Way Around?**
+---
 
 In mechanics, the relationship between **stress** and **strain** is fundamental — but understanding *which causes which* is more nuanced and requires careful consideration.
 
