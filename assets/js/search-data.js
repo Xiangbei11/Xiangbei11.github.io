@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-how-alpha-shapes-the-dirichlet-distribution",
+        },{id: "post-a-fairly-simple-math-problem-from-my-middle-school-years-still-useful-today",
+      
+        title: "A Fairly Simple Math Problem from My Middle School Years — Still Useful...",
+      
+      description: "A hands-on revisit of a classic math problem that uncovers surprising insights about counting, probability, and thinking before coding",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/combinatorics/";
+        
+      },
+    },{id: "post-how-alpha-shapes-the-dirichlet-distribution",
       
         title: "How Alpha Shapes the Dirichlet Distribution?",
       
