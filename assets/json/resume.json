@@ -28,17 +28,17 @@
       "studyType": "M.S.",
       "startDate": "2020-09-01",
       "endDate": "2022-08-01",
-      "score": "3.88/4.0"
+      "advisor": "Prof. John Hwang"
     },
     {
       "institution": "University of California, Irvine",
       "location": "Irvine, CA",
       "url": "https://solmaz.eng.uci.edu/group.html",
       "area": "Mechanical Engineering",
-      "studyType": "M.S.",
+      "studyType": "3+1 Academic Study Abroad Program",
       "startDate": "2019-09-01",
       "endDate": "2020-06-01",
-      "score": "3.88/4.0"
+      "advisor": "Prof. Solmaz Kia, Prof. Andrei Shkel"
     },    
     {
       "institution": "Dalian University of Technology",
@@ -48,52 +48,19 @@
       "studyType": "B.S.",
       "startDate": "2016-09-01",
       "endDate": "2019-06-01",
-      "score": "3.64/4.0"
+      "advisor": "Prof. Jing Sun, Prof. Hong Zhang"
     }
   ],
   "skills": [
     {
       "name": "Machine Learning",
-      "level": "Advanced",
       "keywords": [
         "Deep Learning",
-        "Few-shot Learning",
-        "Generative Models",
-        "Transformers",
-        "Computer Vision",
-        "Natural Language Processing"
-      ]
-    },
-    {
-      "name": "Programming",
-      "level": "Advanced",
-      "keywords": [
-        "Python",
-        "MATLAB",
-        "C++",
-        "PyTorch",
-        "TensorFlow",
-        "scikit-learn"
-      ]
-    },
-    {
-      "name": "Simulation & Modeling",
-      "level": "Proficient",
-      "keywords": [
-        "Finite Element Analysis",
-        "COMSOL",
-        "SolidWorks",
-        "Multi-physics simulation"
-      ]
-    }
-  ],
-  "interests": [
-    {
-      "name": "Research",
-      "keywords": [
-        "Transformer",
-        "Design Optimization",
-        "Data-efficient Learning"
+        "Large Language Models (LLMs)",
+        "Natural Language Processing (NLP)",
+        "Generative Models (e.g., GANs, VAEs, Diffusion, Transformers)",  
+        "Optimization Methods", 
+        "Statistical Learning"                    
       ]
     }
   ],
@@ -103,10 +70,9 @@
       "position": "Vice President of Client Network & Outreach",
       "startDate": "2023-09-01",
       "endDate": "",
-      "summary": "Led client outreach and business development for AI-focused consulting projects.",
       "highlights": [
-        "Developed a sustainable business model for an AI-clone video creation platform",
-        "Expanded the group\u2023s client network through strategic outreach and engagement"
+        "Developed a data-driven product roadmap for an AI-clone video creation platform, including technical assessment of AI models and development of pricing and growth strategies",
+        "Expanded the client network through strategic outreach and cultivation of long-term partnerships"
       ]
     },
     {
@@ -114,10 +80,9 @@
       "position": "Manager and Coordinator",
       "startDate": "2022-09-01",
       "endDate": "",
-      "summary": "Managed B2B merchandise operations for Thayer-branded products.",
       "highlights": [
-        "Oversaw sales and logistics to serve the school community",
-        "Increased merchandise sales tenfold through improved operations and marketing"
+        "Managing end-to-end B2B sales operations, including analyzing sales and inventory data and streamlining shipping and financial workflows.",
+        "Increased sales 10-fold through targeted alumni outreach and personalized promotional strategies"
       ]
     }
   ]
