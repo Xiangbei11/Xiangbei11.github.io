@@ -1,6 +1,6 @@
 # 🌐 [Xiangbei Liu Personal Website](https://xiangbei11.github.io/)
 
-Hi there! This is the GitHub repo for my personal website, hosted at [xiangbei11.github.io](https://xiangbei11.github.io/), built using the awesome [al-folio](https://github.com/alshedivat/al-folio) Jekyll template. The website is a place where I share my work, projects, and academic background. Whether you're here to check out my portfolio, read my blog, or just browsing — welcome!
+Hi there! This is the GitHub repo for my personal website, hosted at [xiangbei11.github.io](https://xiangbei11.github.io/), built using the awesome [al-folio](https://github.com/alshedivat/al-folio) Jekyll template. The website is a place where I share my work, projects, and academic background. Whether you're here to explore my portfolio, read my blog, or just browsing — welcome!
 
 ## 🚀 Features
 

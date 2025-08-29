@@ -6,45 +6,40 @@
     "email": "xiangbei.liu.th@dartmouth.edu",
     "phone": "+1-949-307-7176",
     "url": "https://xiangbei11.github.io",
-    "summary": "Machine learning researcher with a strong engineering background and expertise in generative models, NLP, and data-driven optimization. Passionate about bridging research with real-world applications.",
-    "location": {
-      "address": "15 Thayer Dr",
-      "postalCode": "03755",
-      "city": "Hanover",
-      "countryCode": "US",
-      "region": "NH"
-    },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "xiangbei-liu-208a70207",
-        "url": "https://www.linkedin.com/in/xiangbei-liu-208a70207"
-      }
-    ]
+    "summary": "Researcher with a strong engineering background and expertise in deep learning, large language models, and data-driven optimization, seeking a Machine Learning Engineer opportunity. Passionate about bridging research with real-world applications."
   },
+
   "education": [
     {
       "institution": "Dartmouth College",
       "location": "Hanover, NH",
-      "url": "https://dartmouth.edu",
+      "url": "https://sites.dartmouth.edu/yanligroup/team/",
       "area": "Engineering",
       "studyType": "PhD Candidate",
       "startDate": "2022-08-01",
       "endDate": "2026-06-01",
-      "score": "",
-      "courses": []
+      "advisor": "Prof. Yan Li"
     },
     {
       "institution": "University of California, San Diego",
       "location": "San Diego, CA",
-      "url": "https://ucsd.edu",
+      "url": "https://lsdo.eng.ucsd.edu/people",
       "area": "Mechanical Engineering",
       "studyType": "M.S.",
       "startDate": "2020-09-01",
       "endDate": "2022-08-01",
-      "score": "3.88/4.0",
-      "courses": []
+      "score": "3.88/4.0"
     },
+    {
+      "institution": "University of California, Irvine",
+      "location": "Irvine, CA",
+      "url": "https://solmaz.eng.uci.edu/group.html",
+      "area": "Mechanical Engineering",
+      "studyType": "M.S.",
+      "startDate": "2019-09-01",
+      "endDate": "2020-06-01",
+      "score": "3.88/4.0"
+    },    
     {
       "institution": "Dalian University of Technology",
       "location": "Dalian, China",
@@ -52,9 +47,8 @@
       "area": "Mechanical Engineering",
       "studyType": "B.S.",
       "startDate": "2016-09-01",
-      "endDate": "2020-06-01",
-      "score": "3.64/4.0",
-      "courses": []
+      "endDate": "2019-06-01",
+      "score": "3.64/4.0"
     }
   ],
   "skills": [

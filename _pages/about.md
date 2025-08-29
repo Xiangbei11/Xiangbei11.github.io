@@ -27,4 +27,4 @@ latest_posts:
   limit: 4 # leave blank to include all the blog posts
 ---
 
-Hi, I’m Xiangbei Liu, a PhD candidate at [Dartmouth College](https://sites.dartmouth.edu/yanligroup/team/) from Dalian, China. My research focuses on applying machine learning to the design of multifunctional materials. This website is where I share my work, projects, and academic background. Whether you're here to explore my portfolio, read my blog, or just browsing — welcome!
+Hi, I’m Xiangbei, a PhD candidate at [Dartmouth College](https://sites.dartmouth.edu/yanligroup/team/) from Dalian, China. My research focuses on applying machine learning to the design of multifunctional materials. This website is where I share my work, projects, and academic background. Whether you're here to explore my portfolio, read my blog, or just browsing — welcome!

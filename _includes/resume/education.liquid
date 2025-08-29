@@ -40,6 +40,13 @@
           </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.institution }}</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
+
+          {% if content.advisor %}
+            <p class="ml-1 ml-md-4" style="font-size: 0.9rem;">
+              <strong>Advisor:</strong> {{ content.advisor }}
+            </p>
+          {% endif %}
+          
           <ul class="items">
             {% for item in content.courses %}
               <li>
